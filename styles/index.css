@@ -1,29 +1,88 @@
-html, body{
-    padding: 0;
-    margin: 0;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    background-color: #191919;
-    height: 100px;
-    align-items: center;
+/* NAVBAR */
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #191919;
+  height: 70px;
+  align-items: center;
+  padding: 10px 15px;
 }
 
-.header img{
-    margin-left: 15px;
+.navbar-left img {
+  height: 70px;
+  margin-top: 5px;
 }
 
-.navbar{
-    display: flex;
+.navbar-right {
+  padding-right: 2rem;
+}
+.navbar-right ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
 
-.dropdown{
-    display: none;
+.navbar-right ul > li {
+  color: white;
+  padding: 10px 15px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s all ease;
 }
 
-.section{
-    background-color: #383838;
-    height: 100vh;
+.navbar-right ul > li:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+}
+
+.navbar-right > ul > li:hover > .catalog-dropdown {
+  display: block !important;
+}
+
+.catalog {
+  padding: 10px 30px !important;
+}
+
+/* DROPDOWN */
+.catalog-dropdown {
+  list-style: none;
+  position: absolute;
+  background-color: white;
+  padding: 0;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  display: none !important;
+  border-radius: 10px;
+}
+
+.catalog-dropdown li {
+  color: black !important;
+  list-style: none;
+  text-shadow: none !important;
+}
+
+.catalog-dropdown li:hover {
+  background: #ff67be;
+  color: white !important;
+}
+.album:hover {
+  border-radius: 10px 10px 0 0;
+}
+.merchandise:hover {
+  border-radius: 0 0 10px 10px;
+}
+
+.section {
+  background-color: #383838;
+  height: 100vh;
 }
