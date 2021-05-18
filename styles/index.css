@@ -49,7 +49,7 @@ body {
 }
 
 .catalog {
-  padding: 10px 30px !important;
+  padding: 10px 40px !important;
 }
 
 /* DROPDOWN */
@@ -75,6 +75,12 @@ body {
   background: #ff67be;
   color: white !important;
 }
+
+.album,
+.merchandise {
+  text-align: center;
+}
+
 .album:hover {
   border-radius: 10px 10px 0 0;
 }
@@ -82,7 +88,18 @@ body {
   border-radius: 0 0 10px 10px;
 }
 
-.section {
+.landing {
   background-color: #383838;
   height: 100vh;
+}
+.landing-row {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  flex: 1;
 }
