@@ -7,7 +7,8 @@
     <title>Store Del Luna</title>
     <link rel="icon" href="../assets/logo/logofitdelluna.svg">
     <link rel="stylesheet" type="text/css" href="../styles/register.css">
-    <script src="../js/index.js"></script>
+    <script src="../js/toTop.js"></script>
+    <script src="../js/registValidation.js"></script>
 </head>
 <body>
     <div class="navbar">
@@ -35,16 +36,32 @@
         <form method="POST" action="index.html">
             <h1 class="regist-title">Register Form</h1>
             <div class="register-form">
-                <label for="username"><b>Username :</b></label>
-                <p><input type="text" name="username" id="username" placeholder="Username"><p>
+                <label for="fullname"><b>Fullname :</b></label>
+                <p><input type="text" name="fullname" id="fullname" placeholder="Fullname"><p>
                 <label for="email"><b>Email :</b></label>
+                <p><input type="text" name="username" id="email" placeholder="Email"><p>
+                <label for="Username"><b>Username :</b></label>
                 <p><input type="text" name="username" id="username" placeholder="Username"><p>
-                <label for="email"><b>Phone Number :</b></label>
-                <p><input type="text" name="phone" id="phone" placeholder="Phone Number"><p>
+                <label for="gender"><b>Gender :</b></label>
+                <p>
+                    <input type="radio" name="gender" id="gender">
+                    <label for="">Male</label>
+                    <input type="radio" name="gender" id="gender">
+                    <label for="">Female</label>
+                </p>
+                <label for="age"><b>Age :</b></label>
+                <p>
+                    <input type="number" placeholder="Age">
+                </p>
                 <label for="password"><b>Password :</b></label>
                 <p><input type="password" id="password" placeholder="Password"></p>
                 <label for="password"><b>Re Password :</b></label>
                 <p><input type="password" id="re-password" placeholder="Re-Password"></p>
+                <p>
+                    <input type="checkbox">
+                    <label for="">I agree with te <span>Term & Condition</span> and <span>Privacy Policy</span></label>
+                </p>
+                <button class="register-btn" type="submit">Register</button>
             </div>
         </form>
     </div>

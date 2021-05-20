@@ -1,11 +1,20 @@
 @import url("all.css");
 
 .register{
-    background-color: #ff67be !important;
+    background-color: #2e2e2e !important;
+    align-items: center;
+    text-align: center;
+    height: 600px;
 }
 
 .regist-title{
     color: white;
+    margin: 0;
+    padding: 15px;
+}
+
+.register-form p{
+    margin: 0;
 }
 
 .register-form input{
@@ -20,24 +29,19 @@
 .register-form label{
     margin-left: 10px;
     margin-top: 100px;
+    color: #ff67be;
 }
 
 .register-btn{
     padding: 12px 15px;
     text-align: center;
-}
-
-.register-btn input{
-    padding: 12px 24px;
-    border: #748A9D 1px;
-    border-style: solid;
-    border-radius: 40px;
+    border-radius: 20px;
+    border: none;
     background: none;
     background-color: rgb(230, 230, 230);
-    color: #748A9D;
+    color: #454f58;
     font-weight: bold;
     cursor: pointer;
     font-size: 0.98rem;
     box-shadow: 1px 6px 3px #748A9D;
 }
-
