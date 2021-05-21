@@ -1,0 +1,41 @@
+@import url("all.css");
+
+.testimonial{
+    background-color: #2e2e2e !important;
+    align-items: center;
+    text-align: center;
+    height: 700px;
+}
+
+.testimonial-title{
+    color: white;
+    margin: 0;
+    padding: 30px;
+}
+
+.testi-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 16px;
+    padding: 0 20px;
+}
+
+.card{
+    box-shadow: 0 0 4px lightgrey;
+}
+
+.cust-img{
+    position: relative;
+    padding: 20px 0;
+}
+
+.cust-img img{
+    width: 50px;
+    height: 50px;
+}
+
+.cust-name{
+    padding: 20px 0;
+}
+
