@@ -11,6 +11,7 @@
     color: white;
     margin: 0;
     margin-bottom: 30px;
+    font-size: 56px;
 }
 
 .testi-content{
@@ -21,16 +22,18 @@
 }
 
 .card{
-    box-shadow: 0 0 4px lightgrey;
+    /* box-shadow: 0 0 4px lightgrey; */
+    background-color: #202020;
+    border-radius: 10px;
 }
 
 .testimoni{
-    margin: 0 20px;
+    margin: 0 50px;
 }
 
 .cust-img{
     position: relative;
-    padding-top: 10px;
+    padding: 20px;
 }
 
 .cust-img img{
@@ -43,7 +46,7 @@
 }
 
 .cust-name{
-    padding: 10px 0;
+    padding: 20px;
     text-decoration: underline;
     text-underline-position: under;
     margin-bottom: 5px;
