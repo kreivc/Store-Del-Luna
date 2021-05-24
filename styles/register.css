@@ -26,6 +26,10 @@
     margin: 0;
 }
 
+.register-form .check{
+    width: 23px;
+}
+
 .register-form label{
     margin-left: 10px;
     margin-top: 100px;
