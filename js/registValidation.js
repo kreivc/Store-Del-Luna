@@ -12,8 +12,8 @@ function validate(form){
         alert("email must be filled");
         return false;
 
-    }else if(!form.email.value.endsWith("@gmail.com")){
-        alert("email format must ends with @gmail.com");
+    }else if(!form.email.value.endsWith("@gmail.com") && !form.email.value.endsWith("@yahoo.com")){
+        alert("email format must ends with @gmail.com or @yahoo.com");
         return false;
     
     }else if (form.username.value == ""){
