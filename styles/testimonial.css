@@ -4,25 +4,28 @@
     background-color: #2e2e2e !important;
     align-items: center;
     text-align: center;
-    height: 700px;
+    padding: 3%;
 }
 
 .testimonial-title{
     color: white;
     margin: 0;
-    padding: 30px;
+    margin-bottom: 30px;
 }
 
 .testi-content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    gap: 16px;
-    padding: 0 20px;
+    gap:30px;
 }
 
 .card{
     box-shadow: 0 0 4px lightgrey;
+}
+
+.testimoni{
+    margin: 0 20px;
 }
 
 .cust-img{
@@ -36,9 +39,13 @@
     height: 50px;
     background-color: white;
     border-radius: 100%;
+    margin-top: 5px;
 }
 
 .cust-name{
-    padding: 20px 0;
+    padding: 10px 0;
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-bottom: 5px;
 }
 
