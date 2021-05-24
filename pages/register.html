@@ -35,55 +35,58 @@
     </div>
 
     <div class="register">
-        <form class="form" action="index.html" onsubmit="return validate(this)">
-            <h1 class="regist-title">Register Form</h1>
-            <div class="register-form">
-                <div>
-                    <label for="fullname">Fullname :</label>
+        <div class="register-card">
+
+            <form class="form" action="index.html" onsubmit="return validate(this)">
+                <h1 class="regist-title">REGISTER</h1>
+                <div class="register-form">
+                    <div class="form-group">
+                        <label for="fullname">Full Name :</label>
+                        <br>
+                        <input type="text" name="fullname" id="fullname" placeholder="Fullname">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email :</label>
+                        <br>
+                        <input type="text" name="username" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="Username">Username :</label>
+                        <br>
+                        <input type="text" name="username" id="username" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender :</label>
+                        <br>
+                        <input class="check" value="male" type="radio" name="gender" id="male">
+                        <label for="">Male</label>
+                        <input class="check" value="female" type="radio" name="gender" id="female">
+                        <label for="">Female</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age :</label>
+                        <br>
+                        <input type="number" placeholder="Age" id="age">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password :</label>
+                        <br>
+                        <input type="password" id="password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Confirm Password :</label>
+                        <br>
+                        <input type="password" id="repassword" placeholder="Re-Password">
+                    </div>
+                    <div class="form-group">
+                        <input class="check" type="checkbox" id="agreeterms">
+                        <label for="">I agree with <span>Term & Condition</span> and <span>Privacy Policy</span></label>
+                    </div>
                     <br>
-                    <input type="text" name="fullname" id="fullname" placeholder="Fullname">
+                    <button type="submit" class="register-btn">Register</button>
                 </div>
-                <div>
-                    <label for="email">Email :</label>
-                    <br>
-                    <input type="text" name="username" id="email" placeholder="Email">
-                </div>
-                <div>
-                    <label for="Username">Username :</label>
-                    <br>
-                    <input type="text" name="username" id="username" placeholder="Username">
-                </div>
-                <div>
-                    <label for="gender">Gender :</label>
-                    <br>
-                    <input class="check" value="male" type="radio" name="gender" id="male">
-                    <label for="">Male</label>
-                    <input class="check" value="female" type="radio" name="gender" id="female">
-                    <label for="">Female</label>
-                </div>
-                <div>
-                    <label for="age">Age :</label>
-                    <br>
-                    <input type="number" placeholder="Age" id="age">
-                </div>
-                <div>
-                    <label for="password">Password :</label>
-                    <br>
-                    <input type="password" id="password" placeholder="Password">
-                </div>
-                <div>
-                    <label for="password">Re Password :</label>
-                    <br>
-                    <input type="password" id="repassword" placeholder="Re-Password">
-                </div>
-                <div>
-                    <input class="check" type="checkbox" id="agreeterms">
-                    <label for="">I agree with te <span>Term & Condition</span> and <span>Privacy Policy</span></label>
-                </div>
-                <br>
-                <button type="submit" class="register-btn">Register</button>
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
 
     <div class="footer row">

@@ -1,51 +1,60 @@
 @import url("all.css");
 
-.register{
-    background-color: #2e2e2e !important;
-    align-items: center;
-    text-align: center;
-    height: 600px;
+.register {
+  background-color: #2e2e2e;
+  align-items: center;
+  text-align: center;
+  padding: 5rem;
 }
 
-.regist-title{
-    color: white;
-    margin: 0;
-    padding: 15px;
+.register-card {
+  background-color: #202020;
+  border-radius: 5rem;
+  padding: 1rem 0 4rem 0;
 }
 
-.register-form p{
-    margin: 0;
+.regist-title {
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 56px;
 }
 
-.register-form input{
-    border-radius: 50px;
-    border: #748A9D 1px;
-    border-style: solid;
-    padding: 12px 20px;
-    width: 200px;
-    margin: 0;
+.form-group {
+  padding: 0.5rem;
 }
 
-.register-form .check{
-    width: 23px;
+.register-form p {
+  margin: 0;
 }
 
-.register-form label{
-    margin-left: 10px;
-    margin-top: 100px;
-    color: #ff67be;
+.register-form input {
+  border-radius: 50px;
+  border: #748A9D 1px;
+  border-style: solid;
+  padding: 12px 20px;
+  width: 300px;
+  margin: 0.75rem 0;
 }
 
-.register-btn{
-    padding: 12px 15px;
-    text-align: center;
-    border-radius: 20px;
-    border: none;
-    background: none;
-    background-color: rgb(230, 230, 230);
-    color: #454f58;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 0.98rem;
-    box-shadow: 1px 6px 3px #748A9D;
+.register-form .check {
+  width: 23px;
+}
+
+.register-form label {
+  margin-left: 10px;
+  margin-top: 100px;
+  color: #ff67be;
+}
+
+.register-btn {
+  padding: 0.75rem 6rem;
+  text-align: center;
+  border-radius: 5rem;
+  border: none;
+  background: none;
+  background-color: #ff67be;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.98rem;
 }

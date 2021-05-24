@@ -7,7 +7,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.text-white{
+.text-white {
   color: white;
 }
 
@@ -20,12 +20,12 @@ a {
   text-align: center !important;
 }
 
-.row{
+.row {
   display: flex;
   align-items: center;
 }
 
-.width-100{
+.width-100 {
   width: 100%;
 }
 
@@ -49,13 +49,14 @@ a {
 .navbar-right {
   padding-right: 2rem;
 }
+
 .navbar-right ul {
   list-style: none;
   display: flex;
   align-items: center;
 }
 
-.navbar-right ul > li {
+.navbar-right ul>li {
   color: white;
   padding: 10px 40px;
   position: relative;
@@ -64,12 +65,12 @@ a {
   font-weight: bold;
 }
 
-.navbar-right ul > li:hover {
+.navbar-right ul>li:hover {
   color: #fff;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff;
 }
 
-.navbar-right > ul > li:hover > .catalog-dropdown {
+.navbar-right>ul>li:hover>.catalog-dropdown {
   display: block !important;
 }
 
@@ -102,6 +103,7 @@ a {
 .album:hover {
   border-radius: 10px 10px 0 0;
 }
+
 .merchandise:hover {
   border-radius: 0 0 10px 10px;
 }
@@ -110,7 +112,7 @@ a {
 
 /* FOOTER */
 
-.footer{
+.footer {
   background-color: #191919;
   width: 100%;
   justify-content: space-evenly;
@@ -119,37 +121,37 @@ a {
 }
 
 
-.footer-left>img{
+.footer-left>img {
   width: 220px;
-  margin-left: 35px;
+  margin-bottom: 1rem;
 }
 
-.footer-left{
+.footer-left {
   flex: 0.45;
 }
 
-.sosmed{
+.sosmed {
   display: inline-flex;
 }
 
-.sosmed a{
+.sosmed a {
   padding-right: 20px;
 }
 
-.img-white{
+.img-white {
   filter: brightness(0) invert(1);
 }
 
-.icon{
+.icon {
   width: 40px !important;
   height: 40px;
 }
 
-.footer-middle ul li{
+.footer-middle ul li {
   list-style: none;
 }
 
-.custom-input{
+.custom-input {
   background: none;
   background-color: #2e2e2e;
   border: none;
@@ -159,17 +161,17 @@ a {
   width: 280px;
 }
 
-.footer-right .footer-right-title{
+.footer-right .footer-right-title {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
-.footer-right .email-form{
+.footer-right .email-form {
   margin-bottom: 10px;
 }
 
-.footer-right .submit-wraper button{
+.footer-right .submit-wraper button {
   font-size: 1rem;
   margin-top: 5px;
   border: none;
@@ -180,16 +182,16 @@ a {
   cursor: pointer;
 }
 
-.footer-middle ul li img{
+.footer-middle ul li img {
   margin-right: 15px;
 }
 
-.sosmed-icon{
+.sosmed-icon {
   width: 18px !important;
   height: 18px !important;
 }
 
-.sosmed a{
+.sosmed a {
   width: 18px !important;
   height: 18px !important;
   margin: 0 10px;
@@ -200,7 +202,7 @@ a {
   align-items: center;
 }
 
-.sosmed{
+.sosmed {
   display: flex;
   justify-content: center;
   margin-right: 45px;
