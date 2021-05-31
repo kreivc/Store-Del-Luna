@@ -1,16 +1,17 @@
 @import url("all.css");
 
 .register {
-  background-color: #2e2e2e;
-  align-items: center;
+  background: url('../assets/picture/bg-section.png') center center,
+    #2e2e2e !important;
   text-align: center;
-  padding: 5rem;
+  padding: 4rem 5rem 8rem 5rem;
 }
 
 .register-card {
   background-color: #202020;
   border-radius: 5rem;
-  padding: 1rem 0 4rem 0;
+  padding: 3rem 0 4rem 0;
+  margin-top: 2rem;
 }
 
 .form-group {
