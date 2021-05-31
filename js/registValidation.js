@@ -3,11 +3,15 @@ function validate(form){
     if(form.fullname.value == ""){
         alert("Name must be filled");
         return false;
-        
+    
+    }else if(!isAlphabet(form.fullname.value)){
+        alert("Name must be filled with alphabet");
+        return false;
+
     }else if(form.fullname.value.length < 5 || form.fullname.value.length > 20){
         alert("Name must between 5-20 characters");
         return false;
-
+        
     }else if(form.email.value == ""){
         alert("email must be filled");
         return false;
@@ -61,5 +65,16 @@ function validate(form){
         return false;
     }
     
+    return true;
+}
+
+function isAlphabet(text){
+    for(let i = 0; i < text.length ;i++){
+        if(text.charAt(i) < 'a' || text.charAt(i) > 'z'){
+            if(text.charAt(i) <'A' || text.charAt(i) > 'Z'){
+                return false;
+            }
+        }
+    }
     return true;
 }
