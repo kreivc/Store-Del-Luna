@@ -29,13 +29,13 @@ a {
   width: 100%;
 }
 
-.title{
+.title {
   color: white;
   margin: 0;
   font-size: 36px;
 }
 
-.subtitle{
+.subtitle {
   color: rgb(212, 212, 212);
   margin-top: 0.75rem;
 }
@@ -127,6 +127,10 @@ a {
   background-color: #ff67be;
   margin: auto;
   margin-bottom: 0.75rem;
+}
+
+.center {
+  text-align: center;
 }
 
 /* FOOTER */
