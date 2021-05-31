@@ -7,17 +7,6 @@
     padding: 4rem 5rem 8rem 5rem;
 }
 
-.testimonial-title {
-    color: white;
-    margin: 0;
-    font-size: 36px;
-}
-
-.testimonial-subtitle {
-    color: rgb(212, 212, 212);
-    margin-top: 0.75rem;
-}
-
 .testi-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

@@ -1,1 +1,56 @@
 @import url("all.css");
+
+.album-section{
+    background: url('../assets/picture/bg-section.png') center center, #2e2e2e !important;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 5rem 8rem 5rem;
+}
+
+.album-head{
+    justify-content: center;
+}
+
+.album-head img{
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.wrapper{
+    box-shadow: 3px 3px 10px rgb(34, 34, 34);
+    background-color: #202020;
+    border-radius: 30px;
+    transition: 0.2s ease all;
+    padding: 1.5%;
+    margin: 45px 0;
+}
+
+.album-content{
+    justify-content: center;
+}
+
+.img-wrap{
+    text-align: center;
+    justify-content: center;
+    padding: 0 20px;
+    padding-top: 18px;
+}
+
+.img-wrap img{
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.img-wrap img:hover{
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+}
+
+.exo-temp{
+    border: 1px solid white;
+}

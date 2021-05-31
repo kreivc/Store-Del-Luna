@@ -29,6 +29,17 @@ a {
   width: 100%;
 }
 
+.title{
+  color: white;
+  margin: 0;
+  font-size: 36px;
+}
+
+.subtitle{
+  color: rgb(212, 212, 212);
+  margin-top: 0.75rem;
+}
+
 /* NAVBAR */
 .navbar {
   display: flex;
