@@ -1,7 +1,7 @@
 @import url("all.css");
 
 .testimonial {
-    background-color: #2e2e2e !important;
+    background: url('../assets/picture/bg-section.png') center center, #2e2e2e !important;
     align-items: center;
     text-align: center;
     padding: 4rem 5rem 8rem 5rem;
@@ -31,6 +31,11 @@
     background-color: #202020;
     border-radius: 10px;
     padding: 1rem 0;
+    transition: 0.2s ease all;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .testimoni {
