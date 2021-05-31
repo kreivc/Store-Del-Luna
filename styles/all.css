@@ -134,31 +134,27 @@ a {
 }
 
 /* FOOTER */
+.footer .section-line {
+  margin-left: 0;
+}
 
 .footer {
   background-color: #191919;
-  width: 100%;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 2rem 0;
+  padding: 4rem 2rem;
+  flex-wrap: nowrap;
+  align-items: flex-start;
 }
 
+.footer-left,
+.footer-middle,
+.footer-right {
+  flex: 1;
+  padding: 0 1rem;
+}
 
 .footer-left>img {
-  width: 220px;
-  margin-bottom: 1rem;
-}
-
-.footer-left {
-  flex: 0.45;
-}
-
-.sosmed {
-  display: inline-flex;
-}
-
-.sosmed a {
-  padding-right: 20px;
+  width: 80%;
+  margin-bottom: 0.75rem;
 }
 
 .img-white {
@@ -166,12 +162,14 @@ a {
 }
 
 .icon {
-  width: 40px !important;
-  height: 40px;
+  width: 30px !important;
+  height: 30px;
+  color: white;
 }
 
-.footer-middle ul li {
+.footer-middle ul {
   list-style: none;
+  padding: 0;
 }
 
 .custom-input {
@@ -184,24 +182,35 @@ a {
   width: 280px;
 }
 
-.footer-right .footer-right-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 15px;
+.footer h2 {
+  margin-bottom: 0.75rem;
 }
 
-.footer-right .email-form {
-  margin-bottom: 10px;
+.footer-form {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.footer-form>input {
+  border-radius: 50px;
+  padding: 0.75rem 0.75rem;
+  width: 90%;
+}
+
+.footer-form>textarea {
+  border-radius: 20px;
+  padding: 0.75rem 0.75rem;
+  width: 90%;
 }
 
 .footer-right .submit-wraper button {
   font-size: 1rem;
   margin-top: 5px;
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
   background: #ff67be;
-  height: 30px;
-  width: 290px;
+  padding: 0.5rem;
+  width: 90%;
   cursor: pointer;
 }
 
@@ -227,6 +236,14 @@ a {
 
 .sosmed {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   margin-right: 45px;
+}
+
+.footer-about {
+  text-align: justify;
+}
+
+.form-wrapper {
+  margin-top: 2rem;
 }
