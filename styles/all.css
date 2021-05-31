@@ -110,6 +110,13 @@ a {
 }
 
 /* CONTENT */
+.section-line {
+  width: 80px;
+  height: 3px;
+  background-color: #ff67be;
+  margin: auto;
+  margin-bottom: 0.75rem;
+}
 
 /* FOOTER */
 

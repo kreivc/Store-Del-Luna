@@ -1,42 +1,48 @@
 @import url("all.css");
 
-.testimonial{
+.testimonial {
     background-color: #2e2e2e !important;
     align-items: center;
     text-align: center;
-    padding: 3%;
+    padding: 4rem 5rem 8rem 5rem;
 }
 
-.testimonial-title{
+.testimonial-title {
     color: white;
     margin: 0;
-    margin-bottom: 30px;
-    font-size: 56px;
+    font-size: 36px;
 }
 
-.testi-content{
+.testimonial-subtitle {
+    color: rgb(212, 212, 212);
+    margin-top: 0.75rem;
+}
+
+.testi-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    gap:30px;
+    gap: 30px;
+    margin-top: 4rem;
 }
 
-.card{
-    /* box-shadow: 0 0 4px lightgrey; */
+.card {
+    box-shadow: 3px 3px 10px rgb(34, 34, 34);
     background-color: #202020;
     border-radius: 10px;
+    padding: 1rem 0;
 }
 
-.testimoni{
+.testimoni {
     margin: 0 50px;
 }
 
-.cust-img{
+.cust-img {
     position: relative;
     padding: 20px;
 }
 
-.cust-img img{
+.cust-img img {
     padding: 20px;
     width: 50px;
     height: 50px;
@@ -45,9 +51,9 @@
     margin-top: 5px;
 }
 
-.cust-name{
+.cust-name {
     padding: 20px;
-    text-decoration: underline;
-    text-underline-position: under;
     margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
 }
