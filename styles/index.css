@@ -13,7 +13,77 @@
   justify-content: center;
   align-items: center;
 }
-
+/* 
 .slider img {
   width: 100%;
+} */
+
+/* slider */
+
+/* a{
+	color:#fff;
+	text-decoration:none;
+} */
+
+h1{
+	text-align:center;
+	margin-bottom:20px;
+}
+
+#container{
+	width:980px;
+	margin:40px auto;
+	overflow:hidden;
+}
+
+#slider{
+	width:940px;
+	height:350px;
+	position:relative;
+	overflow:hidden;
+	float:left;
+	padding:3px;
+	border:#666 solid 2px;
+	border-radius:20px;
+}
+
+#slider img{
+	width:940px;
+	height:350px;
+	object-fit: cover;
+	border-radius:20px;
+}
+
+.slide{
+	position:absolute;
+}
+
+.slide-copy{
+	position:absolute;
+	bottom:0;
+	left:0;
+	padding:20px;
+	background:7f7f7f;
+	background: rgba(0,0,0,0.5);
+}
+
+#prev, #next{
+	float:left;
+	margin-top:130px;
+	cursor:pointer;
+	position:relative;
+	z-index:100;
+	-webkit-filter: brightness(0) invert(1);
+  	filter: brightness(0) invert(1);
+	position: absolute;
+}
+
+#prev{
+	left: 0;
+	padding-left: 100px;
+}
+
+#next{
+	right: 0;
+	padding-right: 100px;
 }
