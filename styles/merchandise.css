@@ -1,1 +1,51 @@
 @import url("all.css");
+
+.merchandise-section{
+    background: url('../assets/picture/bg-section.png') center center, #2e2e2e !important;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 5rem 8rem 5rem;
+}
+
+.merch-head img{
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.first-merch{
+    margin-top: 3rem;
+}
+
+.wrapper {
+    box-shadow: 3px 3px 10px rgb(34, 34, 34);
+    background-color: #202020;
+    border-radius: 30px;
+    transition: 0.2s ease all;
+    padding: 2rem 3rem;
+    margin-bottom: 3rem;
+}
+
+.img-wrap{
+    text-align: center;
+    padding: 0 20px;
+    padding-top: 18px;
+}
+
+.img-wrap img{
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: 0.3s ease all;
+}
+
+.white-bg img{
+    background-color: white;
+}
+
+.white-border img{
+    border: 1px solid white;
+}
