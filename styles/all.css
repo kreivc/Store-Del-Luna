@@ -195,13 +195,13 @@ a {
 }
 
 .footer-form>input {
-  border-radius: 50px;
+  border-radius: 15px;
   padding: 0.75rem 0.75rem;
   width: 90%;
 }
 
 .footer-form>textarea {
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 0.75rem 0.75rem;
   width: 90%;
 }
@@ -213,7 +213,7 @@ a {
   border-radius: 50px;
   background: #ff67be;
   padding: 0.5rem;
-  width: 90%;
+  width: 95%;
   cursor: pointer;
 }
 
