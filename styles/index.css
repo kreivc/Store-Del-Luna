@@ -3,12 +3,10 @@
 .landing {
     background: url("../assets/picture/landing.jpg") top center;
     background-size: cover;
-    height: 100vh;
-    min-height: 100vh;
+    padding: 4rem 0 2rem 2.75rem;
 }
 
 .landing-row {
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +21,11 @@ h1 {
     width: 980px;
     overflow: hidden;
     margin-bottom: 160px;
+}
+
+.slider-wrapper {
+    display: flex;
+    align-items: center;
 }
 
 #slider {
@@ -51,31 +54,29 @@ h1 {
     bottom: 0;
     left: 0;
     padding: 20px;
-    background: 7f7f7f;
+    background: #7f7f7f;
     background: rgba(0, 0, 0, 0.5);
 }
 
 #prev,
 #next {
-    float: left;
-    margin-top: 130px;
     cursor: pointer;
     position: relative;
     z-index: 100;
     background-color: #fb839e;
-    padding: 1rem;
+    padding: 0.75rem;
     border-radius: 50%;
     position: absolute;
 }
 
 #prev {
     left: 0;
-    margin-left: 100px;
+    margin-left: 3rem;
 }
 
 #next {
     right: 0;
-    margin-right: 100px;
+    margin-right: 3rem;
 }
 
 .top {
@@ -94,8 +95,12 @@ h1 {
 }
 
 .artist {
-    margin-top: 50px;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+    margin: 5rem 0 2rem 0;
+    padding: 0 1rem;
 }
 
 .section2 {
@@ -222,5 +227,54 @@ h1 {
 
     100% {
         transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .merch-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .merchandise-section {
+        padding: 3rem 1rem;
+    }
+
+    .landing {
+        padding: 4rem 1rem;
+    }
+
+    .slider-wrapper {
+        align-items: flex-end;
+    }
+
+    #slider img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    #prev {
+        margin-left: 1rem;
+        margin-top: 3rem;
+    }
+
+    #next {
+        margin-right: 1rem;
+        margin-top: 3rem;
+    }
+
+    #prev,
+    #next {
+        padding: 0.75rem;
+        border-radius: 50%;
+        position: absolute;
+        width: 30px;
+    }
+
+    .artist {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        margin: 3rem 0 0 0;
+        padding: 0 1rem;
     }
 }
