@@ -53,3 +53,17 @@
   cursor: pointer;
   font-size: 0.98rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .register {
+    padding: 3rem 1rem;
+  }
+
+  .register-card {
+    border-radius: 30px;
+  }
+
+  .register-form input {
+    width: 220px;
+  }
+}
