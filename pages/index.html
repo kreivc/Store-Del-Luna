@@ -11,9 +11,34 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../js/slider.js"></script>
     <script src="../js/toTop.js"></script>
+    <script src="../js/navbar.js"></script>
 </head>
 
 <body>
+    <div class="sidebar" id="sidebar">
+        <div class="header">
+            <a href="index.html">
+                <img src="../assets/logo/dellunawostore.svg" alt="">
+            </a>
+            <button class="btn-nav" onclick="closeSidebar()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+        </div>
+        <hr>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="testimonial.html">TESTIMONIALS</a></li>
+            <li><a href="register.html">REGISTER</a></li>
+            <li class="catalog">CATALOG
+                <ul class="catalog-dropdown-sm">
+                    <li class="album text-center"><a href="album.html">Albums</a></li>
+                    <li class="merchandise text-center"><a href="merchandise.html">Merchandise</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
     <div class="navbar">
         <div class="navbar-left">
             <a href="index.html">
@@ -21,17 +46,26 @@
             </a>
         </div>
         <div class="navbar-right">
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="testimonial.html">TESTIMONIALS</a></li>
-                <li><a href="register.html">REGISTER</a></li>
-                <li class="catalog">CATALOG
-                    <ul class="catalog-dropdown">
-                        <li class="album text-center"><a href="album.html">Albums</a></li>
-                        <li class="merchandise text-center"><a href="merchandise.html">Merchandise</a></li>
-                    </ul>
-                </li>
-            </ul>
+            <div class="nav-content-md">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="testimonial.html">TESTIMONIALS</a></li>
+                    <li><a href="register.html">REGISTER</a></li>
+                    <li class="catalog">CATALOG
+                        <ul class="catalog-dropdown">
+                            <li class="album text-center"><a href="album.html">Albums</a></li>
+                            <li class="merchandise text-center"><a href="merchandise.html">Merchandise</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-content-sm">
+                <button class="btn-nav" onclick="showSidebar()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </button>
+            </div>
         </div>
     </div>
 
