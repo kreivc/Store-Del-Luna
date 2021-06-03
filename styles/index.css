@@ -13,17 +13,6 @@
   justify-content: center;
   align-items: center;
 }
-/* 
-.slider img {
-  width: 100%;
-} */
-
-/* slider */
-
-/* a{
-	color:#fff;
-	text-decoration:none;
-} */
 
 h1{
 	text-align:center;
@@ -32,8 +21,8 @@ h1{
 
 #container{
 	width:980px;
-	margin:40px auto;
 	overflow:hidden;
+	margin-bottom: 160px;
 }
 
 #slider{
@@ -86,4 +75,145 @@ h1{
 #next{
 	right: 0;
 	padding-right: 100px;
+}
+
+.top{
+	margin-top: 60px;
+	padding-bottom: 50px;
+}
+
+.wraper-img img{
+	border-radius: 50%;
+	box-shadow: 3px 3px 10px rgb(34, 34, 34);
+}
+
+.wraper-img p{
+	text-align: center;
+	color: #ff67be;
+}
+
+.artist{
+	margin-top: 50px;
+	justify-content: space-evenly;
+}
+
+.section2{
+	background: url('../assets/picture/bg-section.png') center center, #2e2e2e !important;
+    align-items: center;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.featuring{
+	color: #ff67be;
+	font-weight: bold;
+}
+
+.wraper-img img:hover{
+	box-shadow: 5px 5px 15px #ff67be;
+}
+
+.featuring-line{
+	width: 250px;
+	height: 3.5px;
+	background-color: white;
+	margin: auto;
+	margin-top: 1.2rem;
+}
+
+.effect-wrap .effect{
+    position: absolute;
+    z-index: 2;
+}
+
+.effect-1{
+    width: 30px;
+    height: 30px;
+    border: 4px solid #8a49ff;
+    right: 10%;
+    bottom: 10%;
+    animation: spin 10s linear infinite;
+}
+
+.effect-3{
+    height: 180px;
+    width: 180px;
+    border: 25px solid var(--skin-color);
+    border-radius: 50%;
+    left: 50%;
+    top: -120px;
+    animation: leftBounce 3s ease-in-out infinite;
+}
+
+.effect-4{
+    border-top: 30px solid transparent;
+    border-left: 30px solid #06d79c;
+    left: 30%;
+    top: 20%;
+    animation: spin 15s linear infinite;
+}
+
+.effect-4:before{
+    content: "";
+    border-top: 30px solid transparent;
+    border-left: 30px solid #06d79c;
+    position: absolute;
+    opacity: 0.5;
+    left: -35px;
+    top: -25px;
+}
+
+.effect-5{
+    height: 50px;
+    width: 50px;
+    right: 10%;
+    top: 30%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50%;
+    overflow: hidden;
+    animation: spin 10s linear infinite;
+}
+
+.effect-5 div{
+    width: 1px;
+    background-color: #fb839e;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes topBounce{
+    0%,100%{
+      transform: translateY(0);  
+    }
+    50%{
+        transform: translateY(25px);
+    }
+}
+
+@keyframes leftBounce{
+    0%,100%{
+      transform: translateX(0);  
+    }
+    50%{
+        transform: translateX(25px);
+    }
+}
+
+@keyframes fadeInTop{
+    0%{
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
