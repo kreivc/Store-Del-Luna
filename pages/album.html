@@ -37,259 +37,263 @@
             </li>
         </ul>
     </div>
-    <div class="navbar">
-        <div class="navbar-left">
-            <a href="index.html">
-                <img src="../assets/logo/dellunawostore.svg" alt="">
-            </a>
+
+    <div id="main-content">
+
+        <div class="navbar">
+            <div class="navbar-left">
+                <a href="index.html">
+                    <img src="../assets/logo/dellunawostore.svg" alt="">
+                </a>
+            </div>
+            <div class="navbar-right">
+                <div class="nav-content-md">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="testimonial.html">TESTIMONIALS</a></li>
+                        <li><a href="register.html">REGISTER</a></li>
+                        <li class="catalog">CATALOG
+                            <ul class="catalog-dropdown">
+                                <li class="album text-center"><a href="album.html">Albums</a></li>
+                                <li class="merchandise text-center"><a href="merchandise.html">Merchandise</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-content-sm">
+                    <button class="btn-nav" onclick="showSidebar()">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="navbar-right">
-            <div class="nav-content-md">
+
+
+        <div class="album-section">
+            <div class="section-line"></div>
+            <h1 class="title">ALBUMS</h1>
+            <p class="subtitle">You can see all Albums in the store</p>
+
+            <div class="wrapper first-album">
+                <div class="album-head row">
+                    <img src="../assets/album/bp/bp cover 3.png" alt="" width="50px">
+                    <h1 class="text-white">BLACKPINK</h1>
+                </div>
+                <hr>
+                <div class="album-content row">
+                    <div class="img-wrap">
+                        <img src="../assets/album/bp/bp cover 1.png" alt="" class="album-hover">
+                        <p class="text-white">The Album</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/bp/bp cover 4.png" alt="" class="album-hover">
+                        <p class="text-white">Levitate</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/bp/bp cover 2.png" alt="" class="album-hover">
+                        <p class="text-white">Ice Cream</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/bp/bp cover 6.png" alt="" class="album-hover">
+                        <p class="text-white">How You Like That</p>
+
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/bp/bp cover 5.png" alt="" class="album-hover">
+                        <p class="text-white">Wait Till I Do What I Do</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="album-head row">
+                    <img src="../assets/album/bts/bts prof.png" alt="" width="60px">
+                    <h1 class="text-white">BTS</h1>
+                </div>
+                <hr>
+                <div class="album-content row">
+                    <div class="img-wrap">
+                        <img src="../assets/album/bts/bts cover 2.png" alt="" class="album-hover">
+                        <p class="text-white">Wings</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/bts/bts cover 4.png" alt="" class="album-hover">
+                        <p class="text-white">Dynamite</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/bts/bts cover 5.png" alt="" class="album-hover">
+                        <p class="text-white">Dark&Wild</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/bts/bts cover 6.png" alt="" class="album-hover">
+                        <p class="text-white">Map of the Soul: 7</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/bts/bts cover3.png" alt="" class="album-hover">
+                        <p class="text-white">IDOL</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="album-head row">
+                    <img src="../assets/album/itzy/itzy 6.png" alt="" width="60px">
+                    <h1 class="text-white">ITZY</h1>
+                </div>
+                <hr>
+                <div class="album-content row">
+                    <div class="img-wrap">
+                        <img src="../assets/album/itzy/itzy 1.png" alt="" class="album-hover">
+                        <p class="text-white">IT'z ME</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/itzy/itzy 3.png" alt="" class="album-hover">
+                        <p class="text-white">GUESS WHO</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/itzy/itzy 4.png" alt="" class="album-hover">
+                        <p class="text-white">Not Shy</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/itzy/itzy 5.png" alt="" class="album-hover">
+                        <p class="text-white">In The Morning</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/itzy/itzy 2.png" alt="" class="album-hover">
+                        <p class="text-white">ICY</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="album-head row">
+                    <img src="../assets/album/red velvet/red velvet 1.png" alt="" width="60px">
+                    <h1 class="text-white">Red Velvet</h1>
+                </div>
+                <hr>
+                <div class="album-content row">
+                    <div class="img-wrap">
+                        <img src="../assets/album/red velvet/red velvet 2.png" alt="" class="album-hover">
+                        <p class="text-white">Automatic</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/red velvet/red velvet 3.png" alt="" class="album-hover">
+                        <p class="text-white">Psycho</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/red velvet/red velvet 4.png" alt="" class="album-hover">
+                        <p class="text-white">Sunny Side Up!</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/red velvet/red velvet 5.png" alt="" class="album-hover">
+                        <p class="text-white">Sappy</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/red velvet/red velvet 6.png" alt="" class="album-hover">
+                        <p class="text-white">Happiness</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="album-head row">
+                    <img src="../assets/album/exo/exo profile.jpg" alt="" width="60px">
+                    <h1 class="text-white">EXO</h1>
+                </div>
+                <hr>
+                <div class="album-content row">
+                    <div class="img-wrap">
+                        <img class="album-hover" src="../assets/album/exo/exo temp.png" alt="">
+                        <p class="text-white">The Elyxion (dot)</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/exo/exo 3.png" alt="" class="album-hover">
+                        <p class="text-white">Countdown</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/exo/exo 4.png" alt="" class="album-hover">
+                        <p class="text-white">Love Shot</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/exo/exo 5.png" alt="" class="album-hover">
+                        <p class="text-white">Ko Ko Bop</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../assets/album/exo/exo 1.png" alt="" class="album-hover">
+                        <p class="text-white">Obsession</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="footer row">
+            <div class="footer-left">
+                <img src="../assets/logo/logofitdelluna.svg" alt="">
+                <p class="text-white footer-about">Store Del Luna is a famous 1st hand K-Pop merchandise supplier
+                    established in June
+                    2013. We provide original K-Pop albums and merchandises from many artists.</p>
+                <div class="sosmed">
+                    <a href="">
+                        <img src="../assets/sosmed/facebook.svg" alt="" class="img-white sosmed-icon">
+                    </a>
+                    <a href="">
+                        <img src="../assets/sosmed/instagram.svg" alt="" class="img-white sosmed-icon">
+                    </a>
+                    <a href="">
+                        <img src="../assets/sosmed/whatsapp.svg" alt="" class="img-white sosmed-icon">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-middle">
+                <div class="section-line"></div>
+                <h2 class="text-white">Contact Us</h2>
+                <hr>
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="testimonial.html">TESTIMONIALS</a></li>
-                    <li><a href="register.html">REGISTER</a></li>
-                    <li class="catalog">CATALOG
-                        <ul class="catalog-dropdown">
-                            <li class="album text-center"><a href="album.html">Albums</a></li>
-                            <li class="merchandise text-center"><a href="merchandise.html">Merchandise</a></li>
-                        </ul>
+                    <li>
+                        <div class="row">
+                            <img src="../assets/contact/location.png" alt="" class="img-white icon">
+                            <p class="text-white">Jl. Cempaka Putih Barat XX No.2, RT.5/RW.7, Cemp. Putih Bar., Kec.
+                                Cemp.
+                                Putih, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10520</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <img src="../assets/contact/email.png" alt="" class="img-white icon">
+                            <p class="text-white">delluna@store.com</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <img src="../assets/contact/phone.png" alt="" class="img-white icon">
+                            <p class="text-white">+62 888 123 xxx</p>
+                        </div>
                     </li>
                 </ul>
             </div>
-            <div class="nav-content-sm">
-                <button class="btn-nav" onclick="showSidebar()">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </button>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="album-section">
-        <div class="section-line"></div>
-        <h1 class="title">ALBUMS</h1>
-        <p class="subtitle">You can see all Albums in the store</p>
-
-        <div class="wrapper first-album">
-            <div class="album-head row">
-                <img src="../assets/album/bp/bp cover 3.png" alt="" width="50px">
-                <h1 class="text-white">BLACKPINK</h1>
-            </div>
-            <hr>
-            <div class="album-content row">
-                <div class="img-wrap">
-                    <img src="../assets/album/bp/bp cover 1.png" alt="" class="album-hover">
-                    <p class="text-white">The Album</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/bp/bp cover 4.png" alt="" class="album-hover">
-                    <p class="text-white">Levitate</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/bp/bp cover 2.png" alt="" class="album-hover">
-                    <p class="text-white">Ice Cream</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/bp/bp cover 6.png" alt="" class="album-hover">
-                    <p class="text-white">How You Like That</p>
-
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/bp/bp cover 5.png" alt="" class="album-hover">
-                    <p class="text-white">Wait Till I Do What I Do</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="wrapper">
-            <div class="album-head row">
-                <img src="../assets/album/bts/bts prof.png" alt="" width="60px">
-                <h1 class="text-white">BTS</h1>
-            </div>
-            <hr>
-            <div class="album-content row">
-                <div class="img-wrap">
-                    <img src="../assets/album/bts/bts cover 2.png" alt="" class="album-hover">
-                    <p class="text-white">Wings</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/bts/bts cover 4.png" alt="" class="album-hover">
-                    <p class="text-white">Dynamite</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/bts/bts cover 5.png" alt="" class="album-hover">
-                    <p class="text-white">Dark&Wild</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/bts/bts cover 6.png" alt="" class="album-hover">
-                    <p class="text-white">Map of the Soul: 7</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/bts/bts cover3.png" alt="" class="album-hover">
-                    <p class="text-white">IDOL</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="wrapper">
-            <div class="album-head row">
-                <img src="../assets/album/itzy/itzy 6.png" alt="" width="60px">
-                <h1 class="text-white">ITZY</h1>
-            </div>
-            <hr>
-            <div class="album-content row">
-                <div class="img-wrap">
-                    <img src="../assets/album/itzy/itzy 1.png" alt="" class="album-hover">
-                    <p class="text-white">IT'z ME</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/itzy/itzy 3.png" alt="" class="album-hover">
-                    <p class="text-white">GUESS WHO</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/itzy/itzy 4.png" alt="" class="album-hover">
-                    <p class="text-white">Not Shy</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/itzy/itzy 5.png" alt="" class="album-hover">
-                    <p class="text-white">In The Morning</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/itzy/itzy 2.png" alt="" class="album-hover">
-                    <p class="text-white">ICY</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="wrapper">
-            <div class="album-head row">
-                <img src="../assets/album/red velvet/red velvet 1.png" alt="" width="60px">
-                <h1 class="text-white">Red Velvet</h1>
-            </div>
-            <hr>
-            <div class="album-content row">
-                <div class="img-wrap">
-                    <img src="../assets/album/red velvet/red velvet 2.png" alt="" class="album-hover">
-                    <p class="text-white">Automatic</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/red velvet/red velvet 3.png" alt="" class="album-hover">
-                    <p class="text-white">Psycho</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/red velvet/red velvet 4.png" alt="" class="album-hover">
-                    <p class="text-white">Sunny Side Up!</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/red velvet/red velvet 5.png" alt="" class="album-hover">
-                    <p class="text-white">Sappy</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/red velvet/red velvet 6.png" alt="" class="album-hover">
-                    <p class="text-white">Happiness</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="wrapper">
-            <div class="album-head row">
-                <img src="../assets/album/exo/exo profile.jpg" alt="" width="60px">
-                <h1 class="text-white">EXO</h1>
-            </div>
-            <hr>
-            <div class="album-content row">
-                <div class="img-wrap">
-                    <img class="album-hover" src="../assets/album/exo/exo temp.png" alt="">
-                    <p class="text-white">The Elyxion (dot)</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/exo/exo 3.png" alt="" class="album-hover">
-                    <p class="text-white">Countdown</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/exo/exo 4.png" alt="" class="album-hover">
-                    <p class="text-white">Love Shot</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/exo/exo 5.png" alt="" class="album-hover">
-                    <p class="text-white">Ko Ko Bop</p>
-                </div>
-                <div class="img-wrap">
-                    <img src="../assets/album/exo/exo 1.png" alt="" class="album-hover">
-                    <p class="text-white">Obsession</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-
-    <div class="footer row">
-        <div class="footer-left">
-            <img src="../assets/logo/logofitdelluna.svg" alt="">
-            <p class="text-white footer-about">Store Del Luna is a famous 1st hand K-Pop merchandise supplier
-                established in June
-                2013. We provide original K-Pop albums and merchandises from many artists.</p>
-            <div class="sosmed">
-                <a href="">
-                    <img src="../assets/sosmed/facebook.svg" alt="" class="img-white sosmed-icon">
-                </a>
-                <a href="">
-                    <img src="../assets/sosmed/instagram.svg" alt="" class="img-white sosmed-icon">
-                </a>
-                <a href="">
-                    <img src="../assets/sosmed/whatsapp.svg" alt="" class="img-white sosmed-icon">
-                </a>
-            </div>
-        </div>
-        <div class="footer-middle">
-            <div class="section-line"></div>
-            <h2 class="text-white">Contact Us</h2>
-            <hr>
-            <ul>
-                <li>
-                    <div class="row">
-                        <img src="../assets/contact/location.png" alt="" class="img-white icon">
-                        <p class="text-white">Jl. Cempaka Putih Barat XX No.2, RT.5/RW.7, Cemp. Putih Bar., Kec. Cemp.
-                            Putih, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10520</p>
+            <div class="footer-right">
+                <div class="section-line"></div>
+                <h2 class="text-white">Any Question?</h2>
+                <hr>
+                <div class="form-wrapper">
+                    <div class="footer-form">
+                        <input class="custom-input text-white" type="email" placeholder="Your email address...">
                     </div>
-                </li>
-                <li>
-                    <div class="row">
-                        <img src="../assets/contact/email.png" alt="" class="img-white icon">
-                        <p class="text-white">delluna@store.com</p>
+                    <div class="footer-form">
+                        <textarea class="custom-input text-white" name="" id="" cols="30" rows="10"
+                            placeholder="Message..."></textarea>
                     </div>
-                </li>
-                <li>
-                    <div class="row">
-                        <img src="../assets/contact/phone.png" alt="" class="img-white icon">
-                        <p class="text-white">+62 888 123 xxx</p>
+                    <div class="submit-wraper">
+                        <button class="submit-message text-white" type="button" onclick="sendMessage()">Send</button>
                     </div>
-                </li>
-            </ul>
-        </div>
-        <div class="footer-right">
-            <div class="section-line"></div>
-            <h2 class="text-white">Any Question?</h2>
-            <hr>
-            <div class="form-wrapper">
-                <div class="footer-form">
-                    <input class="custom-input text-white" type="email" placeholder="Your email address...">
-                </div>
-                <div class="footer-form">
-                    <textarea class="custom-input text-white" name="" id="" cols="30" rows="10"
-                        placeholder="Message..."></textarea>
-                </div>
-                <div class="submit-wraper">
-                    <button class="submit-message text-white" type="button" onclick="sendMessage()">Send</button>
                 </div>
             </div>
         </div>
     </div>
-
 </body>
 
 </html>
