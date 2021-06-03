@@ -224,3 +224,8 @@ h1 {
         transform: rotate(360deg);
     }
 }
+
+.slider-wrapper{
+	display: flex;
+	justify-content: center;
+}
