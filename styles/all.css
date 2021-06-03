@@ -92,7 +92,7 @@ a {
   text-shadow: 0 0 10px #fff, 0 0 20px #fff;
 }
 
-.navbar-right>ul>li:hover>.catalog-dropdown {
+.catalog:hover>.catalog-dropdown {
   display: block !important;
 }
 

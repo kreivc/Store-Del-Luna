@@ -6,3 +6,8 @@ if (history.scrollRestoration) {
         window.scrollTo(0, 0);
     }
 }
+
+function sendMessage(){
+    alert("Thankyou for sending a message");
+    return;
+}
