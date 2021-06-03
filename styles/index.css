@@ -231,6 +231,10 @@ h1 {
 }
 
 @media only screen and (max-width: 600px) {
+	.effect-wrap{
+		display: none;
+	}
+
     .merch-content {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -254,17 +258,16 @@ h1 {
     }
 
     #prev {
-        margin-left: 1rem;
-        margin-top: 3rem;
+        margin-left: 11rem;
     }
 
     #next {
-        margin-right: 1rem;
-        margin-top: 3rem;
+        margin-right: 11rem;
     }
 
     #prev,
     #next {
+		margin-top: 7rem;
         padding: 0.75rem;
         border-radius: 50%;
         position: absolute;
