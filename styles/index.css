@@ -137,7 +137,7 @@ h1 {
     height: 30px;
     border: 4px solid #8a49ff;
     right: 20%;
-    top: 180%;
+    top: 160%;
     animation: spin 10s linear infinite;
 }
 
@@ -145,7 +145,7 @@ h1 {
     border-top: 30px solid transparent;
     border-left: 30px solid #06d79c;
     left: 32%;
-    top: 135%;
+    top: 105%;
     animation: spin 15s linear infinite;
 }
 
@@ -189,7 +189,7 @@ h1 {
     border-top: 30px solid transparent;
     border-left: 30px solid #06d79c;
     left: 60%;
-    top: 175%;
+    top: 125%;
     animation: spin 15s linear infinite;
 }
 
@@ -206,8 +206,8 @@ h1 {
 .effect-6 {
     height: 50px;
     width: 50px;
-    right: 75%;
-    top: 180%;
+    right: 60%;
+    top: 170%;
     display: flex;
     justify-content: space-between;
     border-radius: 50%;
@@ -218,6 +218,38 @@ h1 {
 .effect-6 div {
     width: 1px;
     background-color: #fb839e;
+}
+
+.section1 {
+    background: url('../assets/logo/logofitdellunaopa10p.png') center center no-repeat,
+        #191919;
+    background-size: 800px, cover;
+    padding: 5rem 10rem;
+}
+
+.about-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.image-about {
+    width: 100%;
+}
+
+.about-wrapper>.col-about-2,
+.col-about-1 {
+    padding: 0 3rem;
+}
+
+.about-wrapper>.col-about-2>.title {
+    text-align: left;
+}
+
+.about-wrapper>.col-about-2>.section-line {
+    margin: 0 !important;
+    margin-bottom: 2rem !important;
 }
 
 @keyframes spin {
@@ -231,9 +263,9 @@ h1 {
 }
 
 @media only screen and (max-width: 600px) {
-	.effect-wrap{
-		display: none;
-	}
+    .effect-wrap {
+        display: none;
+    }
 
     .merch-content {
         grid-template-columns: repeat(1, 1fr);
@@ -267,7 +299,7 @@ h1 {
 
     #prev,
     #next {
-		margin-top: 7rem;
+        margin-top: 7rem;
         padding: 0.75rem;
         border-radius: 50%;
         position: absolute;
@@ -280,4 +312,19 @@ h1 {
         margin: 3rem 0 0 0;
         padding: 0 1rem;
     }
+
+    .section1 {
+        padding: 3rem 0rem 4rem 0;
+    }
+
+    .about-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .about-wrapper>.col-about-2,
+    .col-about-1 {
+        padding: 0 2rem;
+    }
+
 }

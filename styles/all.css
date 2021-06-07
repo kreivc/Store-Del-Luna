@@ -12,15 +12,15 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #888; 
+  background: #888;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-  background: #2e2e2e; 
+  background: #2e2e2e;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #2e2e2e; 
+  background: #2e2e2e;
 }
 
 .text-white {
@@ -171,8 +171,12 @@ a {
   padding: 0 1rem;
 }
 
+.footer-left {
+  text-align: center;
+}
+
 .footer-left>img {
-  width: 80%;
+  width: 70%;
   margin-bottom: 0.75rem;
 }
 
@@ -255,12 +259,7 @@ a {
 
 .sosmed {
   display: flex;
-  justify-content: flex-start;
-  margin-right: 45px;
-}
-
-.footer-about {
-  text-align: justify;
+  justify-content: center;
 }
 
 .form-wrapper {
@@ -288,6 +287,10 @@ a {
   .footer-right,
   .footer-middle {
     padding: 2rem 0;
+  }
+
+  .footer-left>img {
+    width: 100%;
   }
 
   .nav-content-md {
