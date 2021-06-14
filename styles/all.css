@@ -346,13 +346,13 @@ a {
   .sidebar>ul {
     list-style: none;
     text-align: center;
-    padding: 0;
+    padding: 100px 0;
   }
 
   .sidebar>ul>li {
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: bold;
-    padding: 5px 0;
+    padding: 10px 0;
   }
 
   .sidebar>ul>.catalog:hover>.catalog-dropdown-sm {

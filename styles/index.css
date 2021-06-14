@@ -137,7 +137,7 @@ h1 {
     height: 30px;
     border: 4px solid #8a49ff;
     right: 20%;
-    top: 160%;
+    top: 178%;
     animation: spin 10s linear infinite;
 }
 
@@ -145,7 +145,7 @@ h1 {
     border-top: 30px solid transparent;
     border-left: 30px solid #06d79c;
     left: 32%;
-    top: 105%;
+    top: 125%;
     animation: spin 15s linear infinite;
 }
 
@@ -189,7 +189,7 @@ h1 {
     border-top: 30px solid transparent;
     border-left: 30px solid #06d79c;
     left: 60%;
-    top: 125%;
+    top: 180%;
     animation: spin 15s linear infinite;
 }
 
@@ -207,7 +207,7 @@ h1 {
     height: 50px;
     width: 50px;
     right: 60%;
-    top: 170%;
+    top: 190%;
     display: flex;
     justify-content: space-between;
     border-radius: 50%;
